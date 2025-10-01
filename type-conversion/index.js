@@ -7,15 +7,9 @@
 // Convert price into a number so you can do the subtraction.
 // Print out the final cost.
 
-// Extra Challenge:
-// Ask the user for their age as a number (for now, just hardcode it like let age = 25;).
-// Convert it into a string and print:
-// "You are 25 years old"
-
-// This will give you practice with both string → number and number → string conversions.
-
-let price;
-let discount;
+// Set to 0 to avoid NaN
+let price = 0;
+let discount = 0;
 
 document.getElementById("mySubmit").onclick = function () {
     price = document.getElementById("myInput").value;
@@ -36,3 +30,4 @@ document.getElementById("myDiscountSubmit").onclick = function() {
     finalPrice.textContent = discounted;
     document.getElementById("discountOutput").appendChild(finalPrice);
 }
+
