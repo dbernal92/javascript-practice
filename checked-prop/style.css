@@ -1,0 +1,11 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: ;
+}
+
+#mySubmit {
+    background-color: darkseagreen;
+    border-radius: 30px;
+    font-size: 20px;
+}
